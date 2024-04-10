@@ -1,0 +1,4 @@
+openai==1.16.2
+gTTS==2.5.1
+python-dotenv==1.0.1
+playsound==1.2.2
