@@ -22,7 +22,7 @@ To get started with TextToSpeechNow, follow these steps:
 
 Clone the repository:
 ```sh
-git clone https://github.com/<your-username>/TextToSpeechNow.git
+git clone https://github.com/bpgatchalian/TextToSpeechNow.git
 ```
 Navigate to the project directory:
 ```sh
@@ -48,7 +48,7 @@ To play text-to-speech audio directly, use the speak method. This method synthes
 
 ```python
 tts_now = TextToSpeechNow()
-tts_now.speak("This is a text to speech test. To see how it works")
+tts_now.speak("Hello, welcome to TextToSpeechNow.")
 ```
 
 ### Saving Synthesized Speech as an Audio File
@@ -56,7 +56,7 @@ If you prefer to save the synthesized speech as an audio file for later use, use
 
 ```python
 tts_now = TextToSpeechNow()
-tts_now.synthesize_text("Hello, this is a text to speech example.", output_path="output.mp3")
+tts_now.synthesize_text("Hello, welcome to TextToSpeechNow.", output_path="output.mp3")
 ```
 This method is particularly useful when you need to generate speech audio files for use in applications, presentations, or any other scenario where the audio is required to be played back at a later time.
 
@@ -97,7 +97,7 @@ Converts text to speech and saves the output as an audio file.
 - **output_path**: The file path where the audio file will be saved. Include the file name and extension (e.g., "output.mp3").
 
 ```python
-tts_now.synthesize_text("Hello, this is a text to speech example.", output_path="output.mp3")
+tts_now.synthesize_text("Hello, welcome to TextToSpeechNow.", output_path="output.mp3")
 ```
 
 ## Contributing
