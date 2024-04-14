@@ -66,8 +66,9 @@ class TTSEngine:
             voice=voice,
             input=text_to_speak
         )
-
-        response.stream_to_file(output_path)
+        
+        with open(output_path, 'wb') as file:
+            file.write(response.content)
 
 if __name__ == '__main__':
 
